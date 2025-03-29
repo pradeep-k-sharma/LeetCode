@@ -10,9 +10,9 @@ public class Solution {
         // This loop with identify the cycle in the list 
 		do {
 			slow = arr[slow]; // move to the value which is at index of slow
-			Console.WriteLine(slow);
+			
 			fast = arr[arr[fast]]; // double hop to fast. Fast has to move double steps and slow just one step untill they both are equal
-			Console.WriteLine(fast);
+			
 			
 		} while (slow!=fast);
 	
